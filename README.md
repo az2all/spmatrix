@@ -4,8 +4,8 @@ A sparse matrix is a matrix with large number of zero elements. An efficient way
 saving only non-zero elements is provided by the Old Yale format. It reduces redundancy in
 arrays by storing row and column information in a compact way.
 
-Assume a system of linear equations given by:
-A * x = b
+Assume a system of linear equations given by:<br>
+A * x = b<br>
 where A is a very large sparse matrix.
 
 The system of equations is solved using one of the following iterative methods:
