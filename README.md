@@ -7,7 +7,7 @@ saving only non-zero elements is provided by the Old Yale format. It reduces red
 arrays by storing row and column information in a compact way.
 
 Assume a system of linear equations given by:<br>
-<b>A</b> * <b>x</b> = <b>b</b><br>
+<b>A</b> &middot; <b>x</b> = <b>b</b><br>
 where A is a very large sparse matrix.
 
 <b>SMLC++</b> allows us to solve the system of equations using one of the following iterative methods:
