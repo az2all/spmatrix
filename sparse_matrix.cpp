@@ -475,6 +475,51 @@ void sparse_assign(sparse_Mtrx<EL> *G, EL a, int j, int k, int RoA)
 
 
 //------------------------------------------------------------------------------
+// convert sparse matrix to full and print
+// Inputs:
+//    G         sparse matrix object
+//    a         new value
+//    j         new row
+//    k         new column
+template <typename EL>
+void sparse_convert_to_full_print (sparse_Mtrx<EL> *G)
+{
+    EL M [G->get_rs()][G->get_cs()];
+    for (int i=0; i<G->get_rs(); i++)
+    {
+        for (int j=0; j<G->get_cs(); j++)
+        {
+            M[i][j]=0;
+        }
+    }
+    
+    // printf("rows = %5d  columns : %5d\n", G->get_rs(), G->get_cs());
+    for (int i=0; i<G->get_rs(); i++)
+    {
+        for (int j=G->IA[i]; j<=G->IA[i+1]-1; j++)
+        {
+            M[i][G->JA[j]] = G->A[j];
+            // printf("--- %3d  %3d %5.2f ", i, G->JA[j], G->A[j]);
+        }
+        // printf("\n");
+    }
+    
+    for (int i=0; i<G->get_rs(); i++)
+    {
+        for (int j=0; j<G->get_cs(); j++)
+        {
+            // printf("(%2d,%2d) %5.2f ",i,j, M[i][j]);
+            //printf(" %6.2f ", M[i][j]);
+                cout << setprecision(3) <<  M[i][j] << "  " ;
+        }
+        printf("\n");
+    }
+    
+}
+//------------------------------------------------------------------------------
+
+
+//------------------------------------------------------------------------------
 // print IA, JA, A vectors from a sparse matrix object
 template <typename EL>
 void sparse_Mtrx<EL>::print_Mtrx()
@@ -1466,6 +1511,14 @@ template void      sparse_assign(sparse_Mtrx<double> *G, double a, int j, int k,
 template void      sparse_assign(sparse_Mtrx<complex<int> > *G, complex<int> a, int j, int k, int SoA);
 template void      sparse_assign(sparse_Mtrx<complex<float> > *G, complex<float> a, int j, int k, int SoA);
 template void      sparse_assign(sparse_Mtrx<complex<double> > *G, complex<double> a, int j, int k, int SoA);
+
+
+
+template void      sparse_convert_to_full_print(sparse_Mtrx<int> *G);
+template void      sparse_convert_to_full_print(sparse_Mtrx<float> *G);
+template void      sparse_convert_to_full_print(sparse_Mtrx<double> *G);
+
+
 
 template void      sparse_matrix_multiply(sparse_Mtrx<int> *Rez, sparse_Mtrx<int> *B1, sparse_Mtrx<int> *B2);
 template void      sparse_matrix_multiply(sparse_Mtrx<float> *Rez, sparse_Mtrx<float> *B1, sparse_Mtrx<float> *B2);
