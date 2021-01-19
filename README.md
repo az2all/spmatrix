@@ -15,3 +15,8 @@ The system of equations is solved using one of the following iterative methods:
 - Conjugate gradient.
 
 main.cpp provides several examples of library use.
+
+<h3>References</h3><br>
+S. C. Eisenstat and M. C. Gursky and M. H. Schultz and A. H. Sherman, Yale
+sparse matrix package I: the symmetric codes, Int. J. Numer. Methods in Engin.,
+18 (1982), pp. 1145-1151.
