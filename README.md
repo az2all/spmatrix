@@ -8,12 +8,12 @@ arrays by storing row and column information in a compact way.
 
 Assume a system of linear equations given by:<br>
 <b>A</b> &middot; <b>x</b> = <b>b</b><br>
-where A is a very large sparse matrix.
+where <b>A</b> is a large SPD sparse matrix.
 
 <b>SMLC++</b> allows us to solve the system of equations using one of the following iterative methods:
 - Jacobi,
 - Gauss-Seidel,
-- SOR,
+- SOR (Successive Overrelaxation),
 - Conjugate gradient.
 
 main.cpp provides several examples of library use.
