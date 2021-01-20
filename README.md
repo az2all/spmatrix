@@ -10,7 +10,7 @@ Consider the <i>NxN</i> system of linear equations given by:<br>
 <b>A</b> &middot; <b>x</b> = <b>b</b><br>
 where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive definite.
 
-<b>SMLC++</b> allows us to solve the system of equations using one of the following iterative methods:
+<i><b>SMLC++</b></i> allows us to solve the system of equations using one of the following iterative methods:
 - Jacobi,
 - Gauss-Seidel,
 - SOR (Successive Overrelaxation),
