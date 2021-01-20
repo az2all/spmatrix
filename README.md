@@ -16,7 +16,7 @@ where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive 
 - SOR (Successive Overrelaxation),
 - Conjugate gradient.
 
-main.cpp provides several examples of library use.
+main.cpp provides an example of library use.
 
 <h3>References</h3><br>
 [1] Eisenstat, S. C.; Gursky, M. C.; Schultz, M. H.; Sherman, A. H. <i>Yale
