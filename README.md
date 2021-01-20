@@ -18,6 +18,7 @@ where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive 
 
 main.cpp provides an example of library use.
 
+<br>
 <h3>References</h3><br>
 [1] Eisenstat, S. C.; Gursky, M. C.; Schultz, M. H.; Sherman, A. H. <i>Yale
 sparse matrix package I: the symmetric codes</i>, Int. J. Numer. Methods in Engin.,
