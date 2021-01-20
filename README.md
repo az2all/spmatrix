@@ -6,9 +6,9 @@ A sparse matrix is a matrix with large number of zero elements. An efficient way
 saving only non-zero elements is provided by the Old Yale format [1]. It reduces redundancy in
 arrays by storing row and column information in a compact way.
 
-Assume a system of linear equations given by:<br>
+Consider the <i>NxN</i> system of linear equations given by:<br>
 <b>A</b> &middot; <b>x</b> = <b>b</b><br>
-where <b>A</b> is a large SPD sparse matrix.
+where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive definite.
 
 <b>SMLC++</b> allows us to solve the system of equations using one of the following iterative methods:
 - Jacobi,
