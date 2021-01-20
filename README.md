@@ -1,6 +1,6 @@
 <h1>Sparse Matrix Library in C++ Using Old Yale Format (<b>SMLC++</b>)</h1>.
 
-<b>SMLC++</b> is a fully cross-platform library.
+<i><b>SMLC++</b></i> is a fully cross-platform library.
 
 A sparse matrix is a matrix with large number of zero elements. An efficient way to store it
 saving only non-zero elements is provided by the Old Yale format. It reduces redundancy in
