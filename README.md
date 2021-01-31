@@ -7,7 +7,7 @@ saving only non-zero elements is provided by the Old Yale format [1]. It reduces
 arrays by storing row and column information in a compact way.
 
 Consider the <i>NxN</i> system of linear equations given by:<br>
-<b>A</b> &middot; <b>x</b> = <b>b</b><br>
+<b>A x</b> = <b>b</b><br>
 where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive definite.
 
 <i><b>SMLC++</b></i> allows a user to solve the system of linear equations using one of the following iterative methods:
@@ -21,7 +21,8 @@ main.cpp provides an example of library use.
 <b>Example 1: Compute importance of graph nodes (PageRank) using power method</b>
 ![graph](https://user-images.githubusercontent.com/77605006/106374154-642cb480-6335-11eb-81e0-53267752c9d3.png)
 <br>A reasonable solution is achieved after 5 iterations: v=[0.07 0.33 0.21 0.11 0.21 0.08].
-
+<br><br>
+<b>Example 2: System of linear equations</b>
 
 <br>
 <h3>References</h3><br>
