@@ -32,4 +32,5 @@ CG method provides solution: <b>x</b>=[0.90 1.23 0.68 0.08].
 <h3>References</h3><br>
 [1] Eisenstat, S. C.; Gursky, M. C.; Schultz, M. H.; Sherman, A. H. <i>Yale
 sparse matrix package I: the symmetric codes</i>, Int. J. Numer. Methods in Engin.,
-August 1982, vol. 18, issue 8, pp. 1145-1151.
+August 1982, vol. 18, issue 8, pp. 1145-1151.<br>
+[2] http://www.codedevelopment.net/algorithms.html
