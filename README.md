@@ -10,7 +10,7 @@ Consider the <i>NxN</i> system of linear equations given by:<br>
 <b>A</b> &middot; <b>x</b> = <b>b</b><br>
 where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive definite.
 
-<i><b>SMLC++</b></i> allows us to solve the system of equations using one of the following iterative methods:
+<i><b>SMLC++</b></i> allows a user to solve the system of linear equations using one of the following iterative methods:
 - Jacobi,
 - Gauss-Seidel,
 - SOR (Successive Overrelaxation),
@@ -18,6 +18,8 @@ where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive 
 
 main.cpp provides an example of library use.
 
+<b>Example 1: Compute importance of graph nodes (PageRank) using power method</b>
+![graph](https://user-images.githubusercontent.com/77605006/106372752-c2eb3180-6327-11eb-8b83-8fcf328146f4.png)
 
 
 <br>
