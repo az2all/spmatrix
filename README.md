@@ -19,7 +19,8 @@ where the coefficient matrix <b>A</b> is sparse, large, symmetric, and positive 
 main.cpp provides an example of library use.
 
 <b>Example 1: Compute importance of graph nodes (PageRank) using power method</b>
-![graph](https://user-images.githubusercontent.com/77605006/106372752-c2eb3180-6327-11eb-8b83-8fcf328146f4.png)
+![graph](https://user-images.githubusercontent.com/77605006/106374154-642cb480-6335-11eb-81e0-53267752c9d3.png)
+A reasonable solution is achieved after 5 iterations: v=[0.07 0.33 0.21 0.11 0.21 0.08].
 
 
 <br>
