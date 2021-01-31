@@ -23,7 +23,8 @@ main.cpp provides an example of library use.
 <br>A reasonable solution is achieved after 5 iterations: v=[0.07 0.33 0.21 0.11 0.21 0.08].
 <br><br>
 <b>Example 2: System of linear equations Ax=b</b><br>
-![graph2](https://user-images.githubusercontent.com/77605006/106374625-cedfef00-6339-11eb-833c-7f10bdfbf5c9.png)
+![graph2](https://user-images.githubusercontent.com/77605006/106374707-6d6c5000-633a-11eb-8bbc-3467edd36125.png)
+<br>
 CG method provides solution: <b>x</b>=[0.90 1.23 0.68 0.08].
 
 
