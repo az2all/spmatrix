@@ -27,6 +27,8 @@ main.cpp provides an example of library use.
 <br>
 CG method provides solution: <b>x</b>=[0.90 1.23 0.68 0.08].
 
+<br>
+The library is distributed under the BSD 2-Clause License.
 
 <br>
 <h3>References</h3><br>
